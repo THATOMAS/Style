@@ -1,0 +1,50 @@
+.BagContainer{
+    width: 70px;
+height: 65px;
+flex-shrink: 0;
+/* background: green; */
+top: 10px;
+right:20px;
+position: fixed;
+z-index: 3;
+}
+
+.BagWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.BlackBag{
+    width: 60px;
+height: 50px;
+flex-shrink: 0;
+background: url("../../assets/Bag.svg") ;
+position: relative;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.CounterBox{
+    background: #E58411;
+    width: 30px;
+height: 35px;
+position: absolute;
+top: 2px;
+right: 5px;
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Counter{
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
