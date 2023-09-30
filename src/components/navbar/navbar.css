@@ -1,0 +1,54 @@
+.NavbarContainer{
+    height: 15vh;
+    overflow: hidden;
+    background: rgba(255,255,255,0.93);
+    position: sticky; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+    margin: 0px;
+    z-index: 3;
+}
+
+.NavbarWrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.LogoBox{
+/* background: green; */
+height: 100%;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.Logo{
+    width: 3em;
+height: 3em;
+background: url("../../assets/home\ LOGO.svg");
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.NavbarLinksBox{
+    flex: 5;
+    /* background: red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.NavLinks{
+    color: #000;
+    font-family: Quicksand;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 50px;
+    cursor: pointer;  
+}

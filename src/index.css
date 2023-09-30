@@ -1,0 +1,16 @@
+body {
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: black;
+    height: fit-content;
+    background: url( '../public/spikes.webp' );
+    margin: 0px;
+    height: fit-content;
+    /* display: flex; */
+
+  }
+  main{
+    height: fit-content;
+  }
