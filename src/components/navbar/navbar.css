@@ -1,9 +1,12 @@
 .NavbarContainer{
-    height: 15vh;overflow: hidden;
-    background-color: rgba(255,255,255,0.6);
+    height: 15vh;
+    overflow: hidden;
+    background: rgba(255,255,255,0.93);
     position: sticky; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; 
+    margin: 0px;
+    z-index: 3;
 }
 
 .NavbarWrapper{
@@ -23,10 +26,11 @@ cursor: pointer;
 }
 
 .Logo{
-    width: 83.883px;
-height: 73.125px;
-flex-shrink: 0;
+    width: 3em;
+height: 3em;
 background: url("../../assets/home\ LOGO.svg");
+background-size: contain;
+background-repeat: no-repeat;
 }
 
 .NavbarLinksBox{

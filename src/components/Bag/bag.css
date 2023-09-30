@@ -19,8 +19,8 @@ z-index: 3;
 }
 
 .BlackBag{
-    width: 60px;
-height: 50px;
+    width: 3em;
+height: 3em;
 flex-shrink: 0;
 background: url("../../assets/Bag.svg") ;
 position: relative;
