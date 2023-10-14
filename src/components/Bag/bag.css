@@ -3,9 +3,9 @@
 height: 65px;
 flex-shrink: 0;
 /* background: green; */
-top: 10px;
-right:20px;
-position: fixed;
+/* top: 10px; */
+/* right:20px; */
+position: relative;
 z-index: 3;
 }
 

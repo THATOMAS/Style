@@ -8,6 +8,7 @@ body {
     background: url( '../public/spikes.webp' );
     margin: 0px;
     height: fit-content;
+    overflow-x: hidden;
     /* display: flex; */
 
   }
